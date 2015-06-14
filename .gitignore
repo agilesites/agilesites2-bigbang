@@ -2,3 +2,5 @@ target/
 project/project/
 .classpath
 .project
+agilesites.properties
+agilesites.properties.*
