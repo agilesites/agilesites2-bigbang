@@ -5,7 +5,10 @@ import agilesites.annotations.*;
 /**
  * Created by msciab on 14/06/15.
  */
-@CSElement
 @SiteEntry
+@CSElement
 public class Wrapper {
+    public void apply() {
+
+    }
 }
