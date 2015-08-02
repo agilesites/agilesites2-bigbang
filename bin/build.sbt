@@ -1,4 +1,4 @@
-enablePlugins(AgileSitesPlugin)
+enablePlugins(AgileSitesNgPlugin)
 
 name := utilPropertyMap.value.getOrElse("sites.focus", "bigbang")
 
