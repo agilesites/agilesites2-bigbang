@@ -9,6 +9,8 @@ import agilesites.api.Picker;
 /**
  * Created by msciab on 14/06/15.
  */
+// xxxx
+
 @Template
 public class BbContentLayout implements Element {
 

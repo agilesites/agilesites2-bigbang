@@ -23,3 +23,5 @@ javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 
 enablePlugins(AgileSitesNgPlugin)
 
+
+sourceGenerators in Compile += wemProcessAnnotations.taskValue
