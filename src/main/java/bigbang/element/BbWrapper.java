@@ -1,4 +1,4 @@
-package bigbang.element;
+package BigBang.element;
 
 import agilesites.annotations.CSElement;
 import agilesites.annotations.SiteEntry;

@@ -1,8 +1,9 @@
-package bigbang;
+package BigBang;
 
 import agilesites.annotations.Site;
 import agilesites.api.AgileSite;
 
+//
 @Site
 public class BigBang extends AgileSite {
 }
