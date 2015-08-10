@@ -1,4 +1,4 @@
-package BigBang.element.Page;
+package site.element.Page;
 
 
 import agilesites.annotations.Template;

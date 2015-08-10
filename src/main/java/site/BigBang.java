@@ -1,4 +1,4 @@
-package BigBang;
+package site;
 
 import agilesites.annotations.Site;
 import agilesites.api.AgileSite;

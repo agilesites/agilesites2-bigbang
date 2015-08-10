@@ -1,4 +1,4 @@
-package BigBang.model.Page;
+package site.model.Page;
 
 import agilesites.annotations.ContentDefinition;
 
