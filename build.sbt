@@ -6,8 +6,8 @@ organization := utilPropertyMap.value.getOrElse("organization", "org.agilesites"
 version := utilPropertyMap.value.getOrElse("version", "1.0")
 
 libraryDependencies ++= Seq(
-    "com.sciabarra" % "agilesitesng-lib"  % "11g-M3", //% "run;compile",
-    "com.sciabarra" % "agilesites2-build" % "11g-M3"  // % "run;compile"
+    "com.sciabarra" % "agilesitesng-lib"  % "11g-M4-SNAPSHOT", //% "run;compile",
+    "com.sciabarra" % "agilesites2-build" % "11g-M4-SNAPSHOT"  // % "run;compile"
       extra("scalaVersion" -> "2.10", "sbtVersion" -> "0.13")
 )  
 

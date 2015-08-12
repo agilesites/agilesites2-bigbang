@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="bigbang" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../target/scala-2.10/classes" />
+    <output-test url="file://$MODULE_DIR$/../../target/scala-2.10/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala-2.10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala-2.10" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/groovy" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/web" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.findbugs:jsr305:1.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.guava:guava:12.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.protobuf:protobuf-java:2.5.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.jcraft:jsch:0.1.51:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.ning:async-http-client:1.8.10:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.sciabarra:agilesites2-build:11g-M3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.sciabarra:agilesitesng-lib:11g-M3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.thoughtworks.paranamer:paranamer:2.4.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:jse_2.10:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:npm_2.10:1.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-cluster_2.10:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-contrib_2.10:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-persistence-experimental_2.10:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-remote_2.10:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-slf4j_2.10:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.sbt:sbt-js-engine:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.sbt:sbt-web:1.2.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-io:commons-io:2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.apigee:rhino:1.7R5pre4:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.apigee.trireme:trireme-core:0.8.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.apigee.trireme:trireme-node10src:0.8.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.argonaut:argonaut_2.10:6.0.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.netty:netty:3.9.2.Final:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.spray:spray-can_2.10:1.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.spray:spray-http_2.10:1.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.spray:spray-httpx_2.10:1.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.spray:spray-io_2.10:1.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.spray:spray-json_2.10:1.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.spray:spray-util_2.10:1.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.databinder.dispatch:dispatch-core_2.10:0.11.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.liftweb:lift-json_2.10:2.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.3.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-api:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-dbcp:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-el-api:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-jasper:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-jasper-el:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-jsp-api:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-juli:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-servlet-api:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat:tomcat-util:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-core:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-el:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-jasper:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tomcat.embed:tomcat-embed-logging-juli:7.0.59:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jdt.core.compiler:ecj:4.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.hawtjni:hawtjni-runtime:1.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni:1.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-all:1.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-linux32:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-linux64:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-osx:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-win32:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-win64:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.hsqldb:hsqldb:1.8.0.10:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.iq80.leveldb:leveldb:0.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.iq80.leveldb:leveldb-api:0.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jsoup:jsoup:1.7.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jvnet.mimepull:mimepull:1.9.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.parboiled:parboiled-core:1.1.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.parboiled:parboiled-scala_2.10:1.1.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.10.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.10.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.10.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scalaz:scalaz-core_2.10:7.0.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.webjars:npm:1.3.26:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.webjars:webjars-locator:0.21:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="SBT: unmanaged-jars">
+        <CLASSES>
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/httpmime-4.1.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/poi-ooxml-3.6.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xpp3_min-1.1.4c.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jstl-api-1.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/metadata-extractor-2.4.0-beta-1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jempbox-1.6.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-collections-3.2.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-configuration-1.9.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/itext-unsigned-2.0.8.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jackson-core-asl-1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/csdt-client-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/fckeditor-java-core-2.4.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/tika-core-0.7.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-httpclient-3.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/poi-3.6.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/lucene-core-2.9.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xsdlib.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jaxrpc-impl.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/analyticscs.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/systemtools-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/rest-api-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/docx4j.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/FastInfoset.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/importcert-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/antlr-3.4-complete.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-digester.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/ehcache-core-1.7.1_modified.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/MSXML.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jps-api-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/activation.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/httpclient-4.1.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/sites-timezone-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/identitystore-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jps-internal-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/wem-sso-api-cas-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/services-api-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/slf4j-api-1.5.8.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-compress-1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/firstsite-filter.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/core-renderer-R8pre2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/ics.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-beanutils.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/cs.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/directory.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jps-common-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/gatorbulk.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xmlgraphics-commons-1.4.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/cscommerce.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jersey-core-1.1.4.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/assetmaker.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/rest-api-local-impl-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/wem-sso-api-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jaxb-impl-2.1.12.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/sserve.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/agilesites_agilesites2-core.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/poi-ooxml-schemas-3.6.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/flame.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xwork-2.0.4.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/mail.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/sseed.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/uiframework-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/gator.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/osdt_xmlsec-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/log4j-1.2.16.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/catalog.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/logging.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/ldapjdk.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/PDFRenderer.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-vfs-patched-1.9.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/asm-3.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/poi-scratchpad-3.6.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/saaj-api-1.3.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/rtd-ds-client-3.0.0.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jsoup-1.5.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/sampleasset.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/minium-0.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xmlpull-1.1.3.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/cg-integration-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jersey-client-1.1.4.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/CommerceConnector.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xml-apis-1.4.01.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jdom-1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/services-impl-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jersey-server-1.1.4.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jersey-json-1.1.4.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jackson-mapper-asl-1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/ftcsntsecurity.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/lucene-search.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jstl-impl-1.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/assetapi-impl.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/cas-client-core-3.1.9.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/slf4j-jdk14-1.5.8.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/framework.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xercesImpl-2.11.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xcelerate.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/httpcore-4.1.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jsr311-api-1.1.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/assetframework.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/analytics_integration-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/apache-mime4j-0.5.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/nekohtml-1.9.9.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/stax-api-1.0-2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/tagsoup-1.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/cs-cache-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-io-1.4.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/ui.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jaxb-api-2.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-el.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/tika-parsers-0.7.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/fontbox-1.6.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-codec-1.4.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/assetapi.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/cs-core.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/visitor.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/orai18n-js-10.1.2.0.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/osdt_core-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/groovy-1.7.5.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jaxrpc-api.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/request-authenticator-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xstream-1.4.2.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/parent-pointer-plugin-1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jettison-1.0.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-lang-2.4.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jps-unsupported-api-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/rules.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/jaxrpc-spi.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/batch.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/wem-sso-api-cas-plugin-cs-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/esapi-2.0.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/antisamy-1.4.3.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/transformer.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/relaxngDatatype.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/pdfbox-1.6.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/sites-wurfl-api-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/saaj-impl-1.3.16.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/wem-sso-api-oam-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/xmlbeans-2.3.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/osdt_cert-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/basic.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/sites-security-11.1.1.8.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/spring-2.5.5.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-jexl-2.1.1.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/oraclepki-11.1.2.1.0.jar!/" />
+          <root url="jar:///data/sites/bigbang/webapps/cs/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
