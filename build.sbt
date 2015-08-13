@@ -1,5 +1,4 @@
-
-name := utilPropertyMap.value.getOrElse("sites.focus", "BigBang")
+name := utilPropertyMap.value.getOrElse("sites.focus", "Demo")
 
 organization := utilPropertyMap.value.getOrElse("organization", "org.agilesites") 
 
