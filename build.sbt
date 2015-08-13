@@ -6,7 +6,7 @@ version := utilPropertyMap.value.getOrElse("version", "1.0")
 
 libraryDependencies ++= Seq(
     "com.sciabarra" % "agilesitesng-lib"  % "11g-M4-SNAPSHOT", //% "run;compile",
-    "com.sciabarra" % "agilesites2-build" % "11g-M4-SNAPSHOT"  // % "run;compile"
+    "com.sciabarra" % "agilesites2-build" % "11g-M4-SNAPSHOT"  //  % "run;compile;tomcat"
       extra("scalaVersion" -> "2.10", "sbtVersion" -> "0.13")
 )  
 
@@ -22,6 +22,6 @@ javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 
 enablePlugins(AgileSitesNgPlugin)
 
-//enablePlugins(AgileSitesWemPlugin)
+enablePlugins(AgileSitesWemPlugin)
 
 //sourceGenerators in Compile += wemProcessAnnotations.taskValue
