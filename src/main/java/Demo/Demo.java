@@ -24,6 +24,6 @@ import agilesites.api.AgileSite;
 public class Demo extends AgileSite {
 
     @AttributeEditor
-    private String DmRichTextEditor = "<CKEDITOR/>";
+    private String DmRichTextEditor = "<CKEDITOR WIDTH=\"200px\" HEIGHT=\"200px\" />";
 
 }
