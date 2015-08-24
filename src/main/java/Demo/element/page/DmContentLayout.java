@@ -12,6 +12,8 @@ public class DmContentLayout implements TypedElement<DmSection> {
 
     Log log = Log.getLog(DmContentLayout.class);
 
+
+
     @Override
     public String apply(DmSection a, Env e) {
 
@@ -71,6 +73,7 @@ public class DmContentLayout implements TypedElement<DmSection> {
         html.replace("#tree", e.call("Tree"));
 
         return html.dump(log).html();
+
     }
 
 }
