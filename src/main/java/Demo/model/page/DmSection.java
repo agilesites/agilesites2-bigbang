@@ -1,6 +1,7 @@
 package demo.model.page;
 
 import agilesites.annotations.*;
+import demo.model.DmContent;
 import demo.model.Page;
 
 @FindStartMenu("Find Content Page")
@@ -8,10 +9,10 @@ import demo.model.Page;
 @ContentDefinition
 public class DmSection extends Page {
 
-    @Attribute(required = true)
+    @Attribute()
     private String title;
 
-    @Attribute(required = true, editor = "DmRichTextEditor")
+    @Attribute(editor = "DmRichTextEditor")
     private String subtitle;
 
     @Attribute
@@ -29,11 +30,16 @@ public class DmSection extends Page {
     @Attribute
     private String[] teaserText;
 
-    @Attribute(multiple = true)
+    @Attribute(description = "related pages")
+    @AssetSubtypes(values = {"DmSection", "DmHome"})
     private AssetAttribute<Page>[] related;
 
-    @Attribute(multiple = true)
+    @Attribute(description = "similar pages")
     private AssetAttribute<Page>[] seeAlso;
+
+    @Attribute
+    @AssetSubtypes(values = {"DmImage", "DmArticle"})
+    private AssetAttribute<DmContent>[] content;
 
     public String getTitle() {
         return title;
