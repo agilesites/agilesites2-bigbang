@@ -3,9 +3,12 @@ package demo.model.dmcontent;
 import agilesites.annotations.*;
 import demo.model.DmContent;
 
-@NewStartMenu("New Article")
-@FindStartMenu("Find Article")
+@MultipleStartMenu(items = {
+    @NewStartMenu(value = "It Article", args = {"Dimension:it", "name:pippo"}),
+    @NewStartMenu(value = "En Article", args = {"Dimension:en", "name:goofy"})
+})
 @ContentDefinition
+@Parent("DmFolder")
 public class DmArticle extends DmContent {
 
     @Attribute()
@@ -19,6 +22,10 @@ public class DmArticle extends DmContent {
 
     @Attribute(editor = "DmRichTextEditor")
     private String detail;
+
+    @Attribute()
+    @AssetSubtypes(values = "DmImage")
+    private AssetAttribute<DmContent>[] images;
 
     public String getTitle() {
         return title;
@@ -50,5 +57,13 @@ public class DmArticle extends DmContent {
 
     public void setDetail(String detail) {
         this.detail = detail;
+    }
+
+    public AssetAttribute<DmContent>[] getImages() {
+        return images;
+    }
+
+    public void setImages(AssetAttribute<DmContent>[] images) {
+        this.images = images;
     }
 }
