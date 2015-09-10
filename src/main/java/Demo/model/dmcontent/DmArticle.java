@@ -3,7 +3,10 @@ package demo.model.dmcontent;
 import agilesites.annotations.*;
 import demo.model.DmContent;
 
-@NewStartMenu("New Article")
+@MultipleStartMenu(items = {
+        @NewStartMenu(value = "News Article", args = "path:news"),
+        @NewStartMenu(value = "Blog Article", args = "path:blog")
+})
 @FindStartMenu("Find Article")
 @ContentDefinition
 public class DmArticle extends DmContent {
