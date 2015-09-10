@@ -3,9 +3,10 @@ package demo.model.dmcontent;
 import agilesites.annotations.*;
 import demo.model.DmContent;
 
-@NewStartMenu("New Image")
+@StartMenu("New Image")
 @FindStartMenu("Find Image")
 @ContentDefinition
+@Parent("DmGallery")
 public class DmImage extends DmContent {
 
     @Attribute("Large Image")

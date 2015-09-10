@@ -1,11 +1,10 @@
 package demo.model.page;
 
 import agilesites.annotations.*;
-import demo.model.DmContent;
 import demo.model.Page;
 
 @FindStartMenu("Find HomePage")
-@NewStartMenu("New HomePage")
+@StartMenu("New HomePage")
 @ContentDefinition
 public class DmHome extends Page {
 
