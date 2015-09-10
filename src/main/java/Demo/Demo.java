@@ -16,11 +16,11 @@ import agilesites.api.AgileSite;
         flexContent = "DmContent",
         flexParent = "DmParent"
 )
-@Site(enabledTypes = "DemoAttribute," +
-        "DemoParentDefinition," +
-        "DemoContentDefinition," +
-        "DmContent," +
-        "DmParent")
+@Site(enabledTypes = {"DemoAttribute",
+        "DemoParentDefinition",
+        "DemoContentDefinition",
+        "DmContent",
+        "DmParent"})
 public class Demo extends AgileSite {
 
     @AttributeEditor
